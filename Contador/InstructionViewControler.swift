@@ -22,7 +22,7 @@ override func viewDidLoad() {
     
     instructionsLabel.lineBreakMode = .ByWordWrapping
     instructionsLabel.numberOfLines = 0
-    instructionsLabel.text = "ENGLISH:\nThe game works with the fractions of the second.\nThe turn is switching betweet the two teams.\n\n00 - Goal\n99 or 01 - Penalty -> Pair number in next move to score\n50 - Own Goal (OG)\n\n---------------\n\nEspañol:\nEl juego funciona con las fracciones de segundo.\nEl turno cambia de un equipo a otro.\n\n00 - Gol\n99 or 01 - Penalti -> numero par en la siguiente jugada para marcar\n50 - Gol en propia meta(PP)"
+    instructionsLabel.text = "ENGLISH:\nThe game works with the fractions of the second.\nThe turn is switching betweet the two teams.\n\n00 - Goal\n99 or 01 - Penalty\n50 - Own Goal (OG)\n\n---------------\n\nEspañol:\nEl juego funciona con las fracciones de segundo.\nEl turno cambia de un equipo a otro.\n\n00 - Gol\n99 or 01 - Penalti\n50 - Gol en propia meta(PP)"
 }
 
 override func didReceiveMemoryWarning() {
